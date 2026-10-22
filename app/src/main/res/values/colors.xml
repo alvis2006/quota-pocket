@@ -1,0 +1,19 @@
+<resources>
+    <color name="background">#0B1218</color>
+    <color name="surface">#131F29</color>
+    <color name="border">#344550</color>
+    <color name="divider">#1C2832</color>
+    <color name="primary_text">#F3F5F4</color>
+    <color name="secondary_text">#A9B8C2</color>
+    <color name="muted_text">#6E7F8A</color>
+    <color name="mint">#8AE3CE</color>
+    <color name="orange">#ECAA80</color>
+    <color name="claude_short">#FF9A5C</color>
+    <color name="claude_weekly">#FFE0C7</color>
+    <color name="codex_short">#3FD3AE</color>
+    <color name="codex_weekly">#C4F3E6</color>
+    <color name="button_surface">#223E3C</color>
+    <color name="track">#35434E</color>
+    <color name="ring_track">#22303A</color>
+    <color name="error">#FFB4AB</color>
+</resources>

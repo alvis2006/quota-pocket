@@ -1,0 +1,59 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorAccent">@color/mint</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+    <style name="WidgetText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- Level 1: service name. -->
+    <style name="WidgetBrand" parent="WidgetText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <!-- Level 4: plan name in an outlined pill. -->
+    <style name="WidgetPill" parent="WidgetText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">@drawable/pill_background</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxWidth">72dp</item>
+    </style>
+    <!-- Level 3: window label, preceded by a dot in the ring's colour. -->
+    <style name="WidgetDot" parent="WidgetText">
+        <item name="android:textSize">7sp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:text">●</item>
+    </style>
+    <!-- Level 2: remaining percentage. -->
+    <style name="WidgetValue" parent="WidgetText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:text">—</item>
+    </style>
+    <!-- Level 4: reset countdown and footer status. -->
+    <style name="WidgetMeta" parent="WidgetText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/muted_text</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+</resources>
